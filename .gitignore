@@ -1,0 +1,13 @@
+# venv à la racine
+/env/
+
+# secrets
+.env
+.env.*
+
+# caches Python (tous niveaux)
+__pycache__/
+*.py[cod]
+
+# base SQLite dans api/
+api/db.sqlite3
