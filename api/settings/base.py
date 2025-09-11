@@ -60,7 +60,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "*",
+    os.environ.get('REACT_APP_URL_DEVELOPMENT'),
 ]
 
 ROOT_URLCONF = "api.urls"
